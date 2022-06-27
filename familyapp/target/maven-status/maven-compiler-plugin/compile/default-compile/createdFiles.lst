@@ -1,0 +1,12 @@
+com\familyapp\familyapp\FamilyappApplication.class
+com\familyapp\familyapp\FamilyRequest.class
+com\familyapp\familyapp\persistence\FamilyMember.class
+com\familyapp\familyapp\persistence\FamilyRepository.class
+com\familyapp\familyapp\FamilyResponse.class
+com\familyapp\familyapp\service\FamilyMemberApp.class
+com\familyapp\familyapp\persistence\FamilyMemberRepository.class
+com\familyapp\familyapp\service\FamilyApp.class
+com\familyapp\familyapp\FamilyMemberRequest.class
+com\familyapp\familyapp\FamilyMemberResponse.class
+com\familyapp\familyapp\persistence\Family.class
+com\familyapp\familyapp\FamilyController.class
