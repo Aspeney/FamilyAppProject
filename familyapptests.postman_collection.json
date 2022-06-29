@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "4988aa3f-2f9c-45d4-ac6e-ba6a8fa8164f",
+		"name": "familyapptests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/family",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"familyName\": \"Simpson\",\r\n    \"nrOfInfants\": 0,\r\n    \"nrOfChildren\": 1,\r\n    \"nrOfAdults\": 1,\r\n    \"members\": [\r\n        {\r\n            \"familyName\": \"Simpson\",\r\n            \"givenName\": \"Lisa\",\r\n            \"age\": 8\r\n        },\r\n        {\r\n            \"familyName\": \"Simpson\",\r\n            \"givenName\": \"Bart\",\r\n            \"age\": 40\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/family",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"family"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/family/24055",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/family/24055",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"family",
+						"24055"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
